@@ -1,0 +1,108 @@
+/* MENU PRINCIPAL */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ef3340;
+    background-image: url('/img/Lar_Pag_Principal1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+
+
+
+#menu {
+    background-color: white;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu #entrar{
+    margin-right: 20px;
+    margin-top: 20px; 
+}
+#menu img{
+    margin-left: 20px;
+    width: 60px;
+    /* margin-top: -10px; */
+}
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.logo img{ 
+    padding: 300px;
+} 
+
+
+/* POP UP DE VALIDAÇÃO */
+.Wpop-up{
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-name: coisa;
+    animation-duration: 800ms;
+    flex-direction: column;
+    justify-content: center;
+}
+.pop-up{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #ffffffef;
+    position: relative;
+    border-radius: 4%;
+    box-shadow: 5px 5px 1px 0 #00000080;
+}
+.pop-up-close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+#confirmacao{
+    cursor: pointer;
+    /* color: white;
+    background: #ef3340; */
+    padding: 6px 10px;
+    margin-top: 15px;
+}
+@keyframes coisa { 
+    0% { opacity: 0;
+    top: -100px;}
+    100%{opacity: 100%;}
+}
+
+
+.label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -30px;
+}
+.input{
+    margin-top: 30px;
+    padding: 5px 5px;
+    border: 0;
+    border-bottom: 2px solid #ef3340 ;
+    background-color: transparent;
+    outline: none;
+}

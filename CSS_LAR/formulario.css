@@ -1,0 +1,186 @@
+body{
+    background-color: #ef3340;
+    background-image: url('/img/Lar_Pag_Principal1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.logo img{ 
+    padding: 300px;
+} 
+
+
+/* BARRA DE NAVEGAÇÃO */
+#menu {
+    background-color: white;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu #entrar{
+    position: absolute;
+    right: 25%;
+    margin-top: 20px;
+    border: 0;
+    border-bottom: 2px solid #ef3340;
+}
+#menu img{
+    margin-left: 25%;
+    width: 60px;
+    /* margin-top: -10px; */
+}
+#menu #menu1{
+    margin-top: 20px; 
+    position: absolute;
+    left: 35%;
+    border: 0;
+    border-bottom: 2px solid #ef3340;
+} 
+#menu #menu2{
+    margin-top: 20px; 
+    position: absolute;
+    left: 40%;
+    border: 0;
+    border-bottom: 2px solid #ef3340;
+} 
+
+
+
+/* BARRA DE FORMULARIO */
+.menuSuspenso {
+    display: none;
+    color: #ef3340;
+    background-color: #f1f1f1;
+}
+.menuSuspenso .barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuSuspenso button{
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+#x{
+    position: absolute;
+    top: 100px;
+    right: 0%;
+    cursor: pointer;
+    width: 100px;
+    border: 0;
+}
+/* CARDS EQUIPAMENTOS */
+.menuSuspenso #vapor{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso #vapor img{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.menuSuspenso #cavaco{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso #cavaco img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.menuSuspenso #torridas{
+   width: 277.73px;
+   height: 210px;
+}
+.menuSuspenso #torridas img{
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.menuSuspenso #contador1{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso #contador1 img{
+    width: 70px;
+    margin-top: 20px;
+}
+.menuSuspenso #cargas{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso #cargas img{
+    width: 70px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*  BARRA DE FORMULARIO 2 */
+.menuSuspenso2 {
+    display: none;
+    color: #ef3340;
+    background-color: #f1f1f1;
+}
+.menuSuspenso2 .barra2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuSuspenso2 button{
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+#x2{
+    position: absolute;
+    top: 100px;
+    right: 0%;
+    cursor: pointer;
+    width: 100px;
+    border: 0;
+}
+
+.menuSuspenso2 #vapor2{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso2 #vapor2 img{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.menuSuspenso2 #cavaco2{
+    width: 277.73px;
+    height: 210px;
+}
+.menuSuspenso2 #cavaco2 img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.menuSuspenso2 #tunel{
+   width: 277.73px;
+   height: 210px;
+}
+.menuSuspenso2 #tunel img{
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+
+
+

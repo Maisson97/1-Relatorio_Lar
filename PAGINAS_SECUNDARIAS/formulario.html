@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validação</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/CSS_LAR/formulario.css">
+</head>
+<body>
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <ul class="nav nav-pills" id="menu">
+        <img src="/img/Logo_nav.png" alt="Logo">
+        <button class="btn btn-outline-danger" id="menu1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> 
+        Tabela
+        </button>
+        <button class="btn btn-outline-danger" id="menu2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> 
+        Grafico
+        </button>
+        <button type="button" class="btn btn-outline-danger" id="entrar" onclick="sair()">Sair</button>
+    </ul>
+
+    
+    <div class="menuSuspenso">
+        <ul class="barra">
+            <div class="btn btn-outline-danger" id="x">x</div>
+            <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+                <button type="button" class="btn btn-outline-danger" id="vapor"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Vapor <img
+                        src="/img/fumaca.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="cavaco"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Cavaco <img
+                        src="/img/lenha.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="torridas"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Torridas <img
+                        src="/img/coxa.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="contador1"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Contador de
+                    Frango <img src="/img/frango.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="cargas"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Cargas <img src="/img/pesagem-de-entrega.png"  alt=""></button>
+            </div>
+        </ul>
+    </div>
+    <div class="menuSuspenso2">
+        <ul class="barra2">
+            <div class="btn btn-outline-danger" id="x2">x</div>
+            <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+                <button type="button" class="btn btn-outline-danger" id="vapor2"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Vapor <img
+                        src="/img/fumaca.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="cavaco2"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Cavaco <img
+                        src="/img/lenha.png" alt=""></button>
+                <button type="button" class="btn btn-outline-danger" id="tunel"
+                    style="display: flex; flex-direction: column;align-items: center;justify-content: center;">Tunel <img
+                        src="/img/congelando.png" alt=""></button>
+            </div>
+        </ul>
+    </div>
+
+    <script src="/JS_LAR/paginaSecundaria.js"></script>
+    <script src="/JS_LAR/tabela.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Lar</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/CSS_LAR/style.css">
+</head>
+<body>
+
+
+    
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <ul class="nav nav-pills" id="menu">
+        <img src="/img/Logo_nav.png" alt="Logo">
+        <li class="nav-item">
+        <button type="button" class="btn btn-outline-danger" id="entrar">Login</button>
+        </li>
+    </ul>
+
+
+<!-- POP UP DE PERMICIONAMENTO -->
+    <div class="Wpop-up">
+        <div class="pop-up">
+            <div class="pop-up-close">
+                x
+            </div>
+
+
+            <div class="label-float">
+                <label for="usuario" class="label">Usuario</label>
+                <input type="text" class="input" name="usuario" id="usuario" required>
+            </div>
+
+            <div class="label-float">
+                <label for="senha" class="label">Senha</label>
+                <input type="password" class="input" name="senha" id="senha" required>
+            </div>
+
+            <div>
+                <button class="btn btn-outline-danger" id="confirmacao" onmouseenter="style:'color: white;background: #ef3340;'" onclick="entrar()">Entrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JS_LAR/principal.js"></script>
+</body>
+</html>
